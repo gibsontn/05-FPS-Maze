@@ -188,7 +188,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -14.575
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox7"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -22.6013 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -341,6 +341,11 @@ depth = 10.7563
 
 [node name="CSGBox24" parent="Maze" instance=ExtResource( 9 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -22.107, 2.93421, -13.8107 )
+width = 23.5687
+height = 6.15701
+
+[node name="CSGBox25" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -16.9759, 2.93421, -13.8107 )
 width = 23.5687
 height = 6.15701
 
