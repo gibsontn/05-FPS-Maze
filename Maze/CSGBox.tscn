@@ -1,14 +1,4 @@
-[gd_scene load_steps=4 format=2]
-
-[ext_resource path="res://Materials/aluminium_albedo.png" type="Texture" id=1]
-[ext_resource path="res://Materials/aluminium_normal.png" type="Texture" id=2]
-
-[sub_resource type="SpatialMaterial" id=13]
-albedo_texture = ExtResource( 1 )
-metallic = 0.4
-normal_enabled = true
-normal_scale = 1.0
-normal_texture = ExtResource( 2 )
+[gd_scene format=2]
 
 [node name="CSGBox" type="CSGBox"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -45.75, 3, -2.94009 )
@@ -16,4 +6,3 @@ use_collision = true
 width = 1.0
 height = 6.0
 depth = 5.0
-material = SubResource( 13 )
