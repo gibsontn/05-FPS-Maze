@@ -3,7 +3,7 @@
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
 [ext_resource path="res://Key/key.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Exit/Exit.gd" type="Script" id=3]
-[ext_resource path="res://UI/Menu.gd" type="Script" id=4]
+[ext_resource path="res://UI/Menu.tscn" type="PackedScene" id=4]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 100, 50 )
@@ -74,25 +74,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
 
 [node name="UI" type="CanvasLayer" parent="."]
 
-[node name="Menu" type="Control" parent="UI"]
-pause_mode = 2
-margin_right = 40.0
-margin_bottom = 40.0
-script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Background" type="ColorRect" parent="UI/Menu"]
-margin_right = 1024.0
-margin_bottom = 600.0
-color = Color( 0, 0, 0, 0.752941 )
-
-[node name="Quit" type="Button" parent="UI/Menu"]
-margin_left = 462.0
-margin_top = 450.0
-margin_right = 562.0
-margin_bottom = 490.0
-text = "Quit"
+[node name="Menu" parent="UI" instance=ExtResource( 4 )]
 
 [connection signal="body_entered" from="Maze/Exit" to="Maze/Exit" method="_on_Exit_body_entered"]
