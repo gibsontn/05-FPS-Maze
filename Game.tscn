@@ -155,7 +155,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -29.620
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox4"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.6848, -0.227089, -2.41399e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.6848, -0.227089, 22.4109 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -166,7 +166,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -24.519
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox5"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.3284, -0.227089, -1.87755e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.3284, -0.227089, -11.4113 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -319,13 +319,29 @@ depth = 4.0
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -47.8016, 3, -20.0281 )
 
 [node name="CSGBox20" parent="Maze" instance=ExtResource( 9 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -37.7289, 2.93421, -13.6107 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -37.7289, 2.93421, -13.7849 )
 width = 23.5687
 height = 6.15701
 
 [node name="CSGBox21" parent="Maze" instance=ExtResource( 9 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -47.4911, 2.93421, 2.41176 )
 width = 44.9727
+height = 6.15701
+
+[node name="CSGBox22" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -32.0324, 2.93421, 13.683 )
+width = 23.5687
+height = 6.15701
+
+[node name="CSGBox23" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -24.6573, 2.93421, 19.4765 )
+width = 12.3415
+height = 6.15701
+depth = 10.7563
+
+[node name="CSGBox24" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -22.107, 2.93421, -13.8107 )
+width = 23.5687
 height = 6.15701
 
 [node name="Enemy" parent="." instance=ExtResource( 5 )]
