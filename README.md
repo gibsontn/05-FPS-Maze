@@ -17,6 +17,7 @@ None
 
 ## Future Development
 Background Music and Enemy Sound Effect
+Only Light Source is from character
 
 ## Created by
 Taylor Gibson
