@@ -199,7 +199,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.2301
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox8"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, 22.6697 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -210,7 +210,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -4.0706
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox9"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -22.781 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -221,7 +221,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.31483
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox10"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -11.5382 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -243,7 +243,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 11.5892
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox12"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -22.6902 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -254,7 +254,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 16.9066
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox13"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2815e-06 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -265,7 +265,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 21.9519
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox14"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -22.6972 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -276,7 +276,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 27.2277
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox15"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, 12.6844 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -345,8 +345,36 @@ width = 23.5687
 height = 6.15701
 
 [node name="CSGBox25" parent="Maze" instance=ExtResource( 9 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -16.9759, 2.93421, -13.8107 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -18.1945, 2.93421, -13.8107 )
 width = 23.5687
+height = 6.15701
+depth = 6.67639
+
+[node name="CSGBox26" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.28751, 2.93421, -7.99039 )
+width = 34.8861
+height = 6.15701
+
+[node name="CSGBox27" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.176, 2.93421, 19.4864 )
+width = 12.0284
+height = 6.15701
+
+[node name="CSGBox28" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.27345, 2.93421, -13.5493 )
+width = 22.9171
+height = 6.15701
+depth = 10.0355
+
+[node name="CSGBox29" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 14.6357, 2.93421, -13.5255 )
+width = 23.0674
+height = 6.15701
+depth = 15.2996
+
+[node name="CSGBox30" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 24.5799, 2.93421, -20.0613 )
+width = 10.5844
 height = 6.15701
 
 [node name="Enemy" parent="." instance=ExtResource( 5 )]
