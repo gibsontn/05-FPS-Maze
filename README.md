@@ -15,10 +15,13 @@ Font from [1001fonts.com](https://www.1001fonts.com/pixel-fonts.html)
 ## References
 None
 
-## Future Development
+## Extra
 Background Music and Enemy Sound Effect
 Only Light Source is from character
 Large Level
+
+## Future Development
+More features
 
 ## Created by
 Taylor Gibson
