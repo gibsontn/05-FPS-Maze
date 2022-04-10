@@ -65,7 +65,7 @@ shape = SubResource( 3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 49, 0, 24 )
 
 [node name="Exit" type="Area" parent="Maze"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 49, 0, -24 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.2001, -0.0132866, -24.0285 )
 script = ExtResource( 3 )
 
 [node name="Light" type="OmniLight" parent="Maze/Exit"]
@@ -287,7 +287,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 32.4197
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox16"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, 22.5094 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -309,7 +309,7 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 42.6249
 depth = 50.8106
 
 [node name="CSGBox" type="CSGBox" parent="Maze/CSGBox18"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -1.2666e-06 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.33, -0.227089, -13.9377 )
 operation = 2
 width = 100.0
 height = 6.5
@@ -361,7 +361,7 @@ width = 12.0284
 height = 6.15701
 
 [node name="CSGBox28" parent="Maze" instance=ExtResource( 9 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.27345, 2.93421, -13.5493 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.27345, 2.93421, -13.4085 )
 width = 22.9171
 height = 6.15701
 depth = 10.0355
@@ -377,8 +377,29 @@ transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 24.5799
 width = 10.5844
 height = 6.15701
 
+[node name="CSGBox31" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 30.0245, 2.93421, 7.23306 )
+width = 35.928
+height = 6.15701
+
+[node name="CSGBox32" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 35.0319, 2.93421, 13.3376 )
+width = 22.8041
+height = 6.15701
+
+[node name="CSGBox33" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 46.0178, 2.86689, -6.43909 )
+width = 36.6836
+height = 6.15701
+depth = 7.39251
+
+[node name="CSGBox34" parent="Maze" instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 40.2966, 2.93421, 20.627 )
+width = 9.3962
+height = 6.15701
+
 [node name="Enemy" parent="." instance=ExtResource( 5 )]
-transform = Transform( -0.19011, 0, 0.0621154, 0, 0.2, 0, -0.0621154, 0, -0.19011, 45.7919, 0, 20.4222 )
+transform = Transform( -0.19011, 0, 0.0621154, 0, 0.2, 0, -0.0621154, 0, -0.19011, 47.0746, 0, 20.4222 )
 
 [node name="Player" type="KinematicBody" parent="."]
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -49, 0, -22.1576 )
