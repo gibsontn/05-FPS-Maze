@@ -3,6 +3,12 @@ extends Node
 var menu = null
 
 
+func update_instructions():
+	var Instructions_Label = get_node_or_null("/root/Game/UI/Instructions")
+	if Instructions_Label != null:
+		Instructions_Label.show_labels()
+	
+
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
 

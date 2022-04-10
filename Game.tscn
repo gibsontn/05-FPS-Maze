@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
 [ext_resource path="res://Key/key.tscn" type="PackedScene" id=2]
@@ -9,6 +9,9 @@
 [ext_resource path="res://Assets/Music.ogg" type="AudioStream" id=7]
 [ext_resource path="res://Assets/Robot.wav" type="AudioStream" id=8]
 [ext_resource path="res://Maze/CSGBox.tscn" type="PackedScene" id=9]
+[ext_resource path="res://UI/Instructions.gd" type="Script" id=10]
+[ext_resource path="res://Assets/Merchant Copy.ttf" type="DynamicFontData" id=11]
+[ext_resource path="res://Game.gd" type="Script" id=12]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 100, 50 )
@@ -50,7 +53,12 @@ extents = Vector3( 0.5, 0.1, 0.5 )
 [sub_resource type="Environment" id=15]
 ambient_light_sky_contribution = 0.0
 
+[sub_resource type="DynamicFont" id=16]
+size = 30
+font_data = ExtResource( 11 )
+
 [node name="Game" type="Spatial"]
+script = ExtResource( 12 )
 
 [node name="Maze" type="Spatial" parent="."]
 
@@ -439,11 +447,36 @@ stream = ExtResource( 8 )
 
 [node name="Menu" parent="UI" instance=ExtResource( 4 )]
 
-[node name="Instructions" type="Control" parent="."]
+[node name="Instructions" type="Control" parent="UI"]
+pause_mode = 2
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
+script = ExtResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ColorRect" type="ColorRect" parent="UI/Instructions"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 984.0
+margin_bottom = 560.0
+color = Color( 0, 0, 0, 0.752941 )
+
+[node name="Task" type="Label" parent="UI/Instructions"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 984.0
+margin_bottom = 560.0
+custom_fonts/font = SubResource( 16 )
+text = "Navigate the maze and escape the darkness!"
+align = 1
+valign = 1
+
+[node name="Timer" type="Timer" parent="UI/Instructions"]
+wait_time = 3.0
+one_shot = true
+
 [connection signal="body_entered" from="Maze/Exit" to="Maze/Exit" method="_on_Exit_body_entered"]
+[connection signal="timeout" from="UI/Instructions/Timer" to="UI/Instructions" method="_on_Timer_timeout"]
