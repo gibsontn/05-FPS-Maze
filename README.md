@@ -15,7 +15,7 @@ Key Sound from [freesound.org](https://freesound.org/people/ProjectsU012/sounds/
 Game Music from [patrickdearteaga.com](https://patrickdearteaga.com/royalty-free-music/)
 
 ## Future Development
-More features
+Background Music and Enemy Sound Effect
 
 ## Created by
 Taylor Gibson
