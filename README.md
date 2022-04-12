@@ -2,7 +2,7 @@
 Project 05 for MSCH-C220
 4/9/22
 
-Description
+The player must navigate through a pitch black maze with light emitting from the player. The goal is to obtain the key that unlocks the exit door and avoid an enemy.
 
 ## Implementation
 Asset for Enemy from [kenney.nl](https://kenney.nl/assets/blocky-characters)
